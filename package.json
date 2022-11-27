@@ -2,5 +2,16 @@
   "dependencies": {
     "express": "^4.18.2",
     "express-handlebars": "^6.0.6"
-  }
+  },
+  "name": "trabalhon2templateengine",
+  "description": "<p>Trabalho 2 para N2 da disciplina de Programação Web 2.<p/>",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
