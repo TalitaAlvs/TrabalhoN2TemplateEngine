@@ -1,5 +1,5 @@
 const express = require('express')
-const handlebars= require('express-handlebars')
+const handlebars = require('express-handlebars')
 //const handlebars = require('express-handlebars')
 const port = 3000
 
@@ -15,9 +15,12 @@ app.use('/public', express.static(__dirname + '/public'))
 
 // Rotas
 
-        app.get('/cadastro', (req, res)=>{
-            res.render('home')
-        })
+        app.get('/', (req, res)=>{
+            res.render('home', {
+                isListEnabled: true,
+                style: 'home.css'
+            });
+        });
 
 app.listen(port, () =>{
     console.log("Servidor Rodando na url http://localhost:3000");
